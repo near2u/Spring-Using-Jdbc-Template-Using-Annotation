@@ -1,0 +1,8 @@
+CREATE TABLE `newstud` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `stud_id` int(10) unsigned NOT NULL,
+  `stud_name` varchar(45) NOT NULL,
+  `stud_email` varchar(45) NOT NULL,
+  `stud_add` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+)
